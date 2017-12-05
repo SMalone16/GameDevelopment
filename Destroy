@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+
+public class DestroyBall : MonoBehaviour
+{
+	void Start ()
+	{
+		DestroyObjectDelayed();
+	}
+	
+    void DestroyObjectDelayed()
+    {
+		Destroy (gameObject, 1.0f);
+    }
+}
