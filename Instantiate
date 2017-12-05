@@ -6,6 +6,7 @@ public class ThrowBall : MonoBehaviour
     public Transform mainCam;
 	public Rigidbody ball;
 	
+	
     void Update()
     {
         if (Input.GetButtonDown ("Fire1"))
