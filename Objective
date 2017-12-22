@@ -1,7 +1,18 @@
 public class Objective
 {
+	public bool partyTime = false;
+	public GameObject finalHint;
+	
 	void Start ()
 	{
-		
+		finalHint.SetActive (false);
+	}
+	
+	void Update ()
+	{
+		if (partyTime)
+		{
+			finalHint.SetActive (true);
+		}
 	}
 }
