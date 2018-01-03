@@ -1,18 +1,15 @@
 public class Objective
 {
-	public bool partyTime = false;
-	public GameObject finalHint;
+	public Students students;
+	public Project snowBallWarrior;
 	
 	void Start ()
 	{
-		finalHint.SetActive (false);
+		students.createMechanicsFor (snowBallWarrior);
 	}
 	
 	void Update ()
 	{
-		if (partyTime)
-		{
-			finalHint.SetActive (true);
-		}
+		
 	}
 }
